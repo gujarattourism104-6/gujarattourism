@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <link rel="stylesheet" href="place.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
+    <title>Gujarat_Tourism_Somnath</title>
+    
+</head>
+
+<body>
+
+    <div class="bg">
+        <div class="blur">
+            <header>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <img class="navbar-brand" src="logo.jpg" height="80px" style="padding-right:10%;">
+                        <button class="navbar-toggler" style="background-image: url('menu_logo.jpg'); color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: end;">
+                            <ul class="navbar-nav">
+                                <li class="nav-item" style="padding-right: 100px;">
+        
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item"  style="padding-right: 100px;">
+                                    <a class="nav-link" href="citisomnath.html">Back to Somnath</a>
+                                </li>
+                               
+                                <li class="nav-item"  style="padding-right: 100px;">
+                                    <a class="nav-link" href="feedback.html">Feedback</a>
+                                </li>
+                                <li class="nav-item"  style="padding-right: 100px;">
+                                    <a class="nav-link" href="contect_us.html">Contact</a>
+                                </li>
+                                <li class="nav-item"  style="padding-right: 100px;">
+                                    <a class="nav-link" href="feature.HTML">Feature</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            
+            <div class="base">
+                <div class="sp1 "> </div>
+                <div class="data ">
+
+                    <br>
+                    
+                    <center><h1 style="color:seashell; font-size:300%;  width: 60%;border-radius: 30px; margin-left: 20px;box-shadow: 5px 6px 20px 5px black;"><b>@Somnath</b></h1>
+                        
+                    </center>
+                    <br>
+                    <div class="page ">
+
+                    <center><div class=" imgslider " style="width:90%; height: 100%;">
+                            <div class="slideshow-container " style=" border-radius: 30px; padding: 0px; ">
+
+                                <div class="mySlides fade ">
+
+                                    <img src="SOMNATH/Somnath Tempale/1.jpg" style="width:100%; height: 450px; border-radius: 30px;">
+
+                                </div>
+
+                                <div class="mySlides fade ">
+
+                                    <img src="SOMNATH/Somnath Tempale/2.jpg" style="width:100%; height: 450px; border-radius: 30px;">
+
+                                </div>
+
+                                <div class="mySlides fade ">
+
+                                    <img src="SOMNATH/Somnath Tempale/5.jpg" style="width:100%; height: 450px; border-radius: 30px;">
+
+                                </div>
+
+                                <div class="mySlides fade ">
+
+                                    <img src="SOMNATH/Somnath Tempale/3.jpg" style="width:100%; height: 450px; border-radius: 30px;">
+
+                                </div>
+
+                                <div class="mySlides fade ">
+
+                                    <img src="SOMNATH/Somnath Tempale/4.jpg" style="width:100%; height: 450px; border-radius: 30px;">
+
+                                </div>
+
+                                <div class="mySlides fade ">
+
+                                    <img src="SOMNATH/Somnath Tempale/6.jpg" style="width:100%; height: 450px; border-radius: 30px;">
+
+                                </div>
+                            </div>
+                            <br>
+
+                            <div style="text-align:center ">
+                                <span class="dot "></span>
+                                <span class="dot "></span>
+                                <span class="dot "></span>
+                                <span class="dot "></span>
+                                <span class="dot "></span>
+                                <span class="dot "></span>
+                            </div>
+
+                            <script>
+                                let slideIndex = 0;
+                                showSlides();
+
+                                function showSlides() {
+                                    let i;
+                                    let slides = document.getElementsByClassName("mySlides ");
+                                    let dots = document.getElementsByClassName("dot ");
+                                    for (i = 0; i < slides.length; i++) {
+                                        slides[i].style.display = "none ";
+                                    }
+                                    slideIndex++;
+                                    if (slideIndex > slides.length) {
+                                        slideIndex = 1
+                                    }
+                                    for (i = 0; i < dots.length; i++) {
+                                        dots[i].className = dots[i].className.replace(" active ", " ");
+                                    }
+                                    slides[slideIndex - 1].style.display = "block ";
+                                    dots[slideIndex - 1].className += " active ";
+                                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                                }
+                            </script>
+                        </div></center>
+                    </div><br>
+                    <div class="txt " style="color: white; ">
+                        <hr style="height:5px;background:rgb(245, 246, 247);border-radius: 30px; ">
+                        <h1>About Somnath :</h1>
+                        <hr style="height:5px;background:rgb(245, 246, 247);border-radius: 30px; ">
+                        <h2 style="font-family: 'Times New Roman', Times, serif; ">
+                            The intricately carved honey-coloured Somnath temple on the western edge of the state is believed to be the place where the first of the twelve holy jyotirlingas emerged in India – a spot where Shiva appeared as a fiery column of light. The temples lies at the meeting of Kapila, Hiran and Sarasvati rivers and the waves of the Arabian Sea ebb and flow touching the shore on which it is constructed. The ancient temple’s timeline can be traced from 649 BC but is believed to be older than that.
+                        <p><br>
+                            The present form was reconstructed in 1951. Colourful dioramas of the Shiva story line the north side of the temple garden, though it’s hard to see them through the hazy glass. A one-hour sound-and-light show in Amitabh Bachchan’s baritone highlights the temple nightly at 7.45pm.
+                        </p></h2>
+                        <p><br>
+                            <h2 style="font-family: 'Times New Roman', Times, serif; ">It’s said that Somraj (the moon god) first built a temple in Somnath, made of gold; this was rebuilt by Ravana in silver, by Krishna in wood and by Bhimdev in stone. The current serene, symmetrical structure was built to traditional designs on the original coastal site: it’s painted a creamy colour and boasts a little fine sculpture. The large, black Shiva lingam at its heart is one of the 12 most sacred Shiva shrines, known as jyotirlinga.
+                        
+                            </h2>
+                        </p><br>
+                        
+
+
+                    </div>
+                    <hr style="height:5px;background:rgb(245, 246, 247);border-radius: 30px; ">
+                        
+                    <br><br>
+                    <div class="video ">
+
+                        <center><div class="b ">
+
+                            <video width=" 95% " height="60% " controls loop autoplay style="border-radius: 30px;">
+                            <source src="SOMNATH/somnath.mp4">
+                            </video>
+                        </div></center>
+                    </div><br>
+
+                    
+                    <hr style="color: white; height:5px;">
+                        
+                    
+                    
+                        <h1 style="color: rgb(245, 246, 247); ">
+                            How to Reach :
+                        </h1>
+                    
+                    <hr style="color: white; height:5px;">
+                        <br>
+
+                    <div class="reach ">
+
+
+                        <div class=" road " style=" background: rgba(0, 0, 0, 0.5); border-radius: 10px; padding: 10px;box-shadow: 1px 1px 10px 5px black ">
+
+                            <div class="roada ">
+                               <img src="by_road.jpg" height="150rem">
+                            </div>
+                            <div class=" roadb ">
+                                <h3 style="color: rgb(232, 108, 26); ">BY BUS :
+                                </h3>
+                                <h4 style="color: white; ">The temple city lies 82 km from Junagadh, 270 km from Bhavnagar and 120 km from Porbandar. Ahmedabad is just 400 km away from Somnath.</h4>
+                            </div>
+                            <div class="roadc ">
+                                <br>
+                                <br>
+                                <a href=https://www.google.com/maps/dir/Somnath+S+T+Bus+Station,+Prabhas+Patan,+Gujarat/Shree+Somnath+Jyotirling+Temple,+Somnath+Mandir+Rd,+Somnath,+Gujarat+362268/@20.8878204,70.4018777,18z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3bfd3374a60ced3b:0xba634898bdd4d055!2m2!1d70.4048233!2d20.8876087!1m5!1m1!1s0x3bfd329f0417cb75:0x2f5a510de9857963!2m2!1d70.4011564!2d20.8880476>
+                                    <h4 style="color:rgb(216, 210, 210); ">Direction</h4>
+                                </a>
+                            </div>
+                        </div><br>
+                        <div class="train " style=" background: rgba(0, 0, 0, 0.5);border-radius: 10px; padding: 10px; box-shadow: 1px 1px 10px 5px black ">
+
+                            <div class=" roada ">
+
+                                <img src="by_train.jpg" height="150rem"></div>
+                            <div class="roadb ">
+                                <h3 style="color: rgb(232, 108, 26); ">BY TRAIN:</h3>
+                                <h4 style="color: white; ">Somnath is the nearest railway station, is well connected to other major towns in Gujarat and India.</h4>
+                            </div>
+                            <div class="roadc ">
+                                <br>
+                                <br>
+                                <a href=Station+Entrance,+Somnath,+Gujarat/Shree+Somnath+Jyotirling+Temple,+Somnath+Mandir+Rd,+Somnath,+Gujarat+362268/@20.8914871,70.402491,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3bfd333987030f53:0xb8a7bb86726b946b!2m2!1d70.4078432!2d20.8958916!1m5!1m1!1s0x3bfd329f0417cb75:0x2f5a510de9857963!2m2!1d70.4011564!2d20.8880476> <h4 style="color:rgb(216, 210, 210); ">Direction</h4>
+                                </a>
+                            </div>
+                        </div><br>
+                        <div class="air " style=" background: rgba(0, 0, 0, 0.5); border-radius: 10px; padding: 10px; box-shadow: 1px 1px 10px 5px black; ">
+
+                            <div class="roada ">
+                                <img src="by_air.jpg" height="150rem"></div>
+                            <div class="roadb ">
+                                <h3 style="color: rgb(232, 108, 26); ">BY AIR :</h3>
+                                <h4 style="color: white; ">Keshod Airport is 50 km and Rajkot airport is 200 km away.</h4>
+                            </div>
+                            <div class="roadc ">
+
+                                <br>
+                                <br>
+                                <a href=https://www.google.com/maps/dir/Keshod+Airport,+Keshod,+Gujarat/Shree+Somnath+Jyotirling+Temple,+Somnath+Mandir+Rd,+Somnath,+Gujarat+362268/@21.1058634,70.1778806,11z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3bfd50c8c00b7b23:0xc2865eb4a4eb5069!2m2!1d70.2671478!2d21.3182232!1m5!1m1!1s0x3bfd329f0417cb75:0x2f5a510de9857963!2m2!1d70.4011564!2d20.8880476><h4 style="color:rgb(216, 210, 210); ">Direction</h4>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <br>
+                    <hr style="color: white; height:5px;">
+                   <center> <h1 style="color: rgb(245, 246, 247); ">
+                        360° View of Somnath :
+                    </h1></center><hr style="color: white; height:5px;">
+
+                    <div class="maps ">
+                        
+                        <br>
+                       <center> <div class="map ">
+
+                           
+    
+
+                           
+
+                           <iframe src="https://www.google.com/maps/embed?pb=!4v1653129871553!6m8!1m7!1sCAoSLEFGMVFpcE15bl9xZXFoX1FWSnBBeEUtODVXMzN4cVBmaVh6Vkd0Mnpaa0dq!2m2!1d20.8880469!2d70.4011569!3f17.90123278148799!4f9.012223669999614!5f0.7820865974627469" width="80%" height="450" style="border-radius: 30px; margin-left: 20px;box-shadow: 5px 6px 20px 5px black; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div></center>
+                    </div>
+                    <br>
+                    <center><hr style="color: white; height:10px; width: 65%"border-radius: 30px;></center>
+                    <a href="https://www.google.com/maps/dir/My+Location/Somnath+Temple/">
+                    <center><h1 style="color: rgb(245, 246, 247); background-color: royalblue; width: 60%;border-radius: 30px; margin-left: 20px;box-shadow: 5px 6px 20px 5px black;">
+                        Direction From Your Live Location 
+                    </h1></center></a>
+                    <div class="container">
+                        <div class="wrapper">
+                            <center><hr style="color: white; height:10px;"border-radius: 30px;></center>
+                            
+                            <a href="https://www.facebook.com/profile.php?id=100081499116283" style="color: #fbfdfe;">
+                            <div class="button">
+                                <div class="icon" style="background-color: #4267B2;">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <span style="color: #4267B2;">Facebook</span>
+                            </div>
+                         </a>
+                         <a href="https://mobile.twitter.com/GujaratTourism_" style="color: #fbfdfe;">
+                            <div class="button">
+                                <div class="icon" style="background-color: #1DA1F2;">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <span style="color: #1DA1F2;;">Twitter</span>
+                            </div>
+                        </a>
+                        <a href="https://instagram.com/gujarat_tourism_104_6?igshid=YmMyMTA2M2Y=" style="color: white">
+                            <div class="button" >
+                                <div class="icon" style="background-color: #dd2a7b;">
+                                    <i class="fab fa-instagram" ></i>
+                                </div>
+                                <span  style="color: #dd2a7b;">Instagram</span>
+                            </div>
+                        </a>
+                        <a href="https://youtube.com/channel/UCI8JryTzFY_8zGTWEJQMrUQ" style="color: #f9f5f5;">
+                            <div class="button">
+                                <div class="icon" style="background-color: #ff0000;">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                                <span style="color: #ff0000;">YouTube</span>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                
+
+                 <div class="sp2 "> </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
